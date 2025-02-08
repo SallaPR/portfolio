@@ -38,10 +38,6 @@
 /* Project card background */
 .project-background {
   background-image: url("/public/images/project_image.png");
-  /* width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px; */
   position: absolute;
   top: -1px;
   right: -1px;
@@ -52,21 +48,21 @@
 
 /* Text Styling */
 .project-content {
-  padding: 70px;
-  width: 40%;
+  padding: 30px;
+  width: 45%;
   z-index: 2;
 }
 
 .project-card h3 {
-  margin: 10px 0;
+  /* margin: 10px 0; */
   font-size: 1.2rem;
   color: var(--text-color);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .project-card p {
   color: var(--text-color);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
 }
 
@@ -82,7 +78,7 @@
   padding-left: 8px;
   padding-right: 8px;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-size: 0.85em;
   color: #525f7f;
 }
