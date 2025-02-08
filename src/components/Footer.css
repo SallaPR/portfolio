@@ -1,0 +1,48 @@
+#contact::after {
+  content: " ";
+  border: 4px solid var(--primary-color);
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 80px;
+}
+
+.footer-social {
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    color: var(--text-color);
+}
+
+.footer-social a::after {
+    content: "||";
+    color: var(--text-color);
+    margin: 0 30px;
+}
+
+.footer-social a:nth-child(2):after {
+    content: "";
+    margin: 0;
+}
+
+.footer-bottom {
+    margin: 0 auto;
+    font-size: .9em;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #503136;
+}

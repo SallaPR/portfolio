@@ -7,3 +7,19 @@ html, body {
   scroll-behavior: smooth;
   color: var(--text-color);
 }
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 80px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+h2::after {
+    content: " ";
+    border: 4px solid var(--primary-color);
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 80px;
+}

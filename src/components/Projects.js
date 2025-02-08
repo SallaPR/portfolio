@@ -1,44 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Projects.css";
 import { FaGithub } from "react-icons/fa";
-
-const projects = [
-  {
-    id: 1,
-    title: "Speden Spelit -nopeuspeli",
-    description: "A short description of the project.",
-    image: "/images/spede.JPG",
-    link: "https://example.com",
-    skills: ["Arduino", "C++"],
-  },
-  {
-    id: 2,
-    title: "Car App",
-    description: "A short description of the project.",
-    image: "/images/car_app4.png",
-    link: "https://example.com",
-    github: "https://github.com/SallaPR/rastitehtava.git",
-    skills: ["Qt", "MySQL", "Node.js", "C++"],
-  },
-  {
-    id: 3,
-    title: "Web-sivusto",
-    description: "A short description of the project.",
-    image: "/images/websivusto3.png",
-    link: "https://example.com",
-    github: "https://github.com/SallaPR/websivusto.git",
-    skills: ["JavaScript", "HTML", "CSS"],
-  },
-  {
-    id: 4,
-    title: "Movie Website",
-    description: "A group project for web app course",
-    image: "/images/movieapp.png",
-    link: "https://example.com",
-    github: "https://github.com/mdbRyhma2/MovieDatabaseApp.git",
-    skills: ["JavaScript", "HTML", "CSS", "React", "PostgreSQL"],
-  },
-];
+import projects from "./projectsData";
 
 const Projects = () => {
   return (
@@ -61,18 +25,18 @@ const Projects = () => {
                   ))}
               </div>
               <div className="project-links">
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <Link to={`/project/${project.id}`} className="more-info-link">
                   More info
-                </a>
+                </Link>
                 {project.github && (
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="github-button"
-                >
-                  <FaGithub size={20} /> GitHub
-                </a>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="github-button"
+                  >
+                    <FaGithub size={20} /> GitHub
+                  </a>
                 )}
               </div>
             </div>

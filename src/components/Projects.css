@@ -4,22 +4,6 @@
   background-color: var(--background-color);
 }
 
-.projects h2 {
-  font-size: 2rem;
-  margin-bottom: 80px;
-  color: var(--text-color);
-  text-align: center;
-}
-
-.projects h2::after {
-    content: " ";
-    border: 4px solid var(--primary-color);
-    display: block;
-    margin: 0 auto;
-    margin-top: 30px;
-    width: 110px;
-}
-
 /* Container for project cards */
 .projects-container {
   display: grid;
