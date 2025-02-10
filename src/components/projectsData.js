@@ -86,7 +86,7 @@ const projects = [
     ),
     media: {
       custom: ["/images/movieapp.png"],
-      images: [
+      /* images: [
         "/images/movieapp2.png",
         "/images/movieapp3.png",
         "/images/movieapp4.png",
@@ -95,9 +95,20 @@ const projects = [
         "/images/movieapp7.png",
         "/images/movieapp8.png",
         "/images/movieapp9.png",
+      ], */
+      images: [
+        `${process.env.PUBLIC_URL}/images/movieapp2.png`,
+        `${process.env.PUBLIC_URL}/images/movieapp3.png`,
+        `${process.env.PUBLIC_URL}/images/movieapp4.png`,
+        `${process.env.PUBLIC_URL}/images/movieapp5.png`,
+        `${process.env.PUBLIC_URL}/images/movieapp6.png`,
+        `${process.env.PUBLIC_URL}/images/movieapp7.png`,
+        `${process.env.PUBLIC_URL}/images/movieapp8.png`,
+        `${process.env.PUBLIC_URL}/images/movieapp9.png`,
       ],
     },
-    image: "/images/movieapp.png",
+    /* image: "/images/movieapp.png", */
+    image: `${process.env.PUBLIC_URL}/images/movieapp.png`,
     github: "https://github.com/mdbRyhma2/MovieDatabaseApp.git",
     skills: [
       "JavaScript",
