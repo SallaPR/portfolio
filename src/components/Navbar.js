@@ -14,9 +14,9 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <nav>
-        <a id="title" href="/" onClick={() => handleNavigation("")}>
+      <span id="title" onClick={() => handleNavigation("")}>
           Salla Paaso-Rantala
-        </a>
+        </span>
         <ul>
           <li>
             <button onClick={() => handleNavigation("projects")}>Projects</button>

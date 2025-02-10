@@ -85,17 +85,7 @@ const projects = [
       </>
     ),
     media: {
-      custom: ["/images/movieapp.png"],
-      /* images: [
-        "/images/movieapp2.png",
-        "/images/movieapp3.png",
-        "/images/movieapp4.png",
-        "/images/movieapp5.png",
-        "/images/movieapp6.png",
-        "/images/movieapp7.png",
-        "/images/movieapp8.png",
-        "/images/movieapp9.png",
-      ], */
+      custom: [`${process.env.PUBLIC_URL}/images/movieapp.png`],
       images: [
         `${process.env.PUBLIC_URL}/images/movieapp2.png`,
         `${process.env.PUBLIC_URL}/images/movieapp3.png`,
@@ -107,7 +97,6 @@ const projects = [
         `${process.env.PUBLIC_URL}/images/movieapp9.png`,
       ],
     },
-    /* image: "/images/movieapp.png", */
     image: `${process.env.PUBLIC_URL}/images/movieapp.png`,
     github: "https://github.com/mdbRyhma2/MovieDatabaseApp.git",
     skills: [
@@ -140,13 +129,13 @@ const projects = [
     ),
     media: {
       images: [
-        "/images/websivusto2.png",
-        "/images/websivusto4.png",
-        "/images/websivusto3.png",
-        "/images/websivusto.png",
+        `${process.env.PUBLIC_URL}/images/websivusto2.png`,
+        `${process.env.PUBLIC_URL}/images/websivusto4.png`,
+        `${process.env.PUBLIC_URL}/images/websivusto3.png`,
+        `${process.env.PUBLIC_URL}/images/websivusto.png`,
       ],
     },
-    image: "/images/websivusto3.png",
+    image: `${process.env.PUBLIC_URL}/images/websivusto3.png`,
     link: "https://sallapr.github.io/websivusto/stuff.html",
     github: "https://github.com/SallaPR/websivusto.git",
     skills: ["JavaScript", "HTML", "CSS"],
@@ -170,10 +159,10 @@ const projects = [
       </>
     ),
     media: {
-      custom: ["/images/car_app.png"],
-      images: ["/images/car_app4.png", "/images/car_app2.png"],
+      custom: [`${process.env.PUBLIC_URL}/images/car_app.png`],
+      images: [`${process.env.PUBLIC_URL}/images/car_app4.png`, `${process.env.PUBLIC_URL}/images/car_app2.png`],
     },
-    image: "/images/car_app4.png",
+    image: `${process.env.PUBLIC_URL}/images/car_app4.png`,
     github: "https://github.com/SallaPR/rastitehtava.git",
     skills: ["Qt", "MySQL", "Node.js", "C++", "JavaScript"],
   },
@@ -198,11 +187,11 @@ const projects = [
       </>
     ),
     media: {
-      custom: ["/images/spede.JPG"],
+      custom: [`${process.env.PUBLIC_URL}/images/spede.JPG`],
       images: [,],
       video: ["https://www.youtube.com/embed/rofxYfzP5AA"],
     },
-    image: "/images/spede.JPG",
+    image: `${process.env.PUBLIC_URL}/images/spede.JPG`,
     skills: ["Arduino", "C++"],
   },
   {
@@ -211,9 +200,9 @@ const projects = [
     description:
       "This page. I made this website to show the projects I've made during the last two years.",
     media: {
-      custom: ["/images/portfolio.png"],
+      custom: [`${process.env.PUBLIC_URL}/images/portfolio.png`],
     },
-    image: "/images/portfolio.png",
+    image: `${process.env.PUBLIC_URL}/images/portfolio.png`,
     github: "https://github.com/SallaPR/portfolio",
     skills: ["JavaScript", "HTML", "CSS", "React"],
   },
