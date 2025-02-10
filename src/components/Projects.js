@@ -28,6 +28,16 @@ const Projects = () => {
                 <Link to={`/project/${project.id}`} className="more-info-link">
                   More info
                 </Link>
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="livedemo-button"
+                  >
+                    Live Demo
+                  </a>
+                )}
                 {project.github && (
                   <a
                     href={project.github}

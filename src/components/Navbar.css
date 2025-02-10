@@ -24,14 +24,40 @@ nav ul {
     font-family: "Sacramento";
     font-size: 50px;
     color: var(--primary-color);
+    text-decoration: none;
 }
 
 nav li {
   margin: 0 30px;
 }
 
-nav a {
+nav button {
   color: var(--text-color);
   text-decoration: none;
+  all: unset;
+  cursor: pointer;
   font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav button:hover {
+  color: var(--primary-color);
+}
+
+nav button::after {
+  content: " ";
+  border: 2px solid var(--primary-color);
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 70px;
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+nav button:hover::after {
+  opacity: 1; 
+  transform: scaleX(1);
 }

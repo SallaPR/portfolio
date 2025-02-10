@@ -9,16 +9,12 @@ import Projects from "./components/Projects";
 import ProjectPage from "./pages/ProjectPage";
 
 function App() {
-  const location = useLocation();
-
   return (
     <div>
       <Container>
         <Navbar />
-        {/* {location.pathname === "/" && <About />} */}
         <Routes>
           <Route path="/" exact element={<Home />} />
-          
           <Route path="/" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectPage />} />
         </Routes>

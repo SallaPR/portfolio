@@ -31,6 +31,8 @@ const Home = () => {
       </section>
 
       <Projects />
+
+      <section id="contact"></section>
     </>
   );
 };

@@ -1,20 +1,31 @@
-import React from "react";
-import "./Navbar.css"; // Optional for styling
+import { useNavigate } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const handleNavigation = (section) => {
+    navigate("/"); // Navigate to the home page first
+    setTimeout(() => {
+      document.getElementById(section)?.scrollIntoView({ behavior: "smooth" });
+    }, 100); // Wait for navigation before scrolling
+  };
+
   return (
     <div className="navbar-container">
       <nav>
-      <a id="title" href="/">Salla Paaso-Rantala</a>
+        <a id="title" href="/" onClick={() => handleNavigation("")}>
+          Salla Paaso-Rantala
+        </a>
         <ul>
           <li>
-            <a href="#about">About Me</a>
+            <button onClick={() => handleNavigation("about")}>About Me</button>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <button onClick={() => handleNavigation("projects")}>Projects</button>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <button onClick={() => handleNavigation("contact")}>Contact</button>
           </li>
         </ul>
       </nav>

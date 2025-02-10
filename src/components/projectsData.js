@@ -9,7 +9,7 @@ const projects = [
     longdescription: (
       <>
         <p>
-          This was a collaborative group project developed with three other people. The
+          This was a group project developed with three other students. The
           website allows users to search for movies and view cinema showtimes.
           Additionally, users can create accounts, form groups, and connect with others by
           sharing movies within these groups. They can also leave reviews and add movies
@@ -99,7 +99,6 @@ const projects = [
       ],
     },
     image: "/images/movieapp.png",
-    link: "https://example.com",
     github: "https://github.com/mdbRyhma2/MovieDatabaseApp.git",
     skills: [
       "JavaScript",
@@ -116,7 +115,11 @@ const projects = [
     title: "Website Project",
     description:
       "This is a final project for web application course. Website shows the skills i learned during the course about HTML, CSS and JavaScript. ",
-    longdescription: "",
+    longdescription: (
+      <>
+        <p>This was my final project for the web application course. The website shows my skills in JavaScript, HTML, and CSS. The website was simple, but as my first-ever creation, it was a valuable learning experience. I gained a deeper understanding of asynchronous operations, and working with APIs to fetch real-time weather data taught me a lot. Overall the project helped me refine my problem-solving skills, debug errors efficiently and improve the overall user experience. </p>
+      </>
+    ),
     media: {
       images: [
         "/images/websivusto2.png",
@@ -126,7 +129,7 @@ const projects = [
       ],
     },
     image: "/images/websivusto3.png",
-    link: "https://example.com",
+    link: "https://sallapr.github.io/websivusto/stuff.html",
     github: "https://github.com/SallaPR/websivusto.git",
     skills: ["JavaScript", "HTML", "CSS"],
   },
@@ -135,13 +138,16 @@ const projects = [
     title: "Car App",
     description:
       "Project with a database for cars and an application where the users can view and edit the database.",
-    longdescription: "",
+    longdescription: (
+      <>
+        <p></p>
+      </>
+    ),
     media: {
       custom: ["/images/car_app.png"],
       images: ["/images/car_app4.png", "/images/car_app2.png", "/images/car_app3.png"],
     },
     image: "/images/car_app4.png",
-    link: "https://example.com",
     github: "https://github.com/SallaPR/rastitehtava.git",
     skills: ["Qt", "MySQL", "Node.js", "C++"],
   },
@@ -150,14 +156,17 @@ const projects = [
     title: "Speden Spelit - speedgame",
     description:
       "A game we made as a group project, where the player has to press the button that lights up. ",
-    longdescription: "",
+    longdescription: (
+      <>
+        <p></p>
+      </>
+    ),
     media: {
       custom: ["/images/spede.JPG"],
       images: [,],
       video: ["https://www.youtube.com/embed/rofxYfzP5AA"],
     },
     image: "/images/spede.JPG",
-    link: "https://example.com",
     skills: ["Arduino", "C++"],
   },
 ];
