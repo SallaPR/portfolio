@@ -4,7 +4,7 @@ import "./Footer.css"; // Optional for styling
 const Footer = () => {
   return (
     <footer className="portfolio-footer">
-        <h2>Contact me</h2>
+        <h2>Contact me!</h2>
 
         <section className="footer-social">
             <a href="https://github.com/SallaPR" target="_blank" rel="noopener noreferrer">
