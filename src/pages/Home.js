@@ -1,5 +1,6 @@
 import React from "react";
 import Projects from "../components/Projects"
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -13,16 +14,16 @@ const Home = () => {
         <h3>Skills</h3>
         <ul>
           <li>
-            <b>Programming Languages:</b> C++, JavaScript, Java, Python (basic){" "}
+            <b>Programming Languages:</b> C++, JavaScript, Java
           </li>
           <li>
             <b>Web Development:</b> HTML, CSS, React{" "}
           </li>
           <li>
-            <b>Mobile Development (Learning):</b> React Native, Kotlin{" "}
+            <b>Mobile Development:</b> React Native, Kotlin
           </li>
           <li>
-            <b>Databases:</b> PostgreSQL
+            <b>Databases:</b> PostgreSQL, MySQL
           </li>
           <li>
             <b>Other Technologies:</b> Arduino, Qt

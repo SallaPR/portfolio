@@ -9,11 +9,10 @@ const projects = [
     longdescription: (
       <>
         <p>
-          This was a group project developed with three other students. The
-          website allows users to search for movies and view cinema showtimes.
-          Additionally, users can create accounts, form groups, and connect with others by
-          sharing movies within these groups. They can also leave reviews and add movies
-          to their favorites.
+          This was a group project developed with three other students. The website allows
+          users to search for movies and view cinema showtimes. Additionally, users can
+          create accounts, form groups, and connect with others by sharing movies within
+          these groups. They can also leave reviews and add movies to their favorites.
         </p>
         <p>We used these technologies to build the application:</p>
         <ul>
@@ -117,7 +116,15 @@ const projects = [
       "This is a final project for web application course. Website shows the skills i learned during the course about HTML, CSS and JavaScript. ",
     longdescription: (
       <>
-        <p>This was my final project for the web application course. The website shows my skills in JavaScript, HTML, and CSS. The website was simple, but as my first-ever creation, it was a valuable learning experience. I gained a deeper understanding of asynchronous operations, and working with APIs to fetch real-time weather data taught me a lot. Overall the project helped me refine my problem-solving skills, debug errors efficiently and improve the overall user experience. </p>
+        <p>
+          This was my final project for the web application course. The website shows my
+          skills in JavaScript, HTML, and CSS. The website was simple, but as my
+          first-ever creation, it was a valuable learning experience. I gained a deeper
+          understanding of asynchronous operations, and working with APIs to fetch
+          real-time weather data taught me a lot. Overall the project helped me refine my
+          problem-solving skills, debug errors efficiently and improve the overall user
+          experience.{" "}
+        </p>
       </>
     ),
     media: {
@@ -137,19 +144,27 @@ const projects = [
     id: 3,
     title: "Car App",
     description:
-      "Project with a database for cars and an application where the users can view and edit the database.",
+      "Project with a database for cars and an application where the users can view and edit the database. ",
     longdescription: (
       <>
-        <p></p>
+        <p>
+          This was a small project, where I built a database and and application where a
+          user can view and edit cars in the database. I used MySQL for the database and
+          the code is written with C++ and JavaScript.{" "}
+        </p>
+        <p>
+          Below is a poster explaining more about the project, and screenshots of the UI
+          and code
+        </p>
       </>
     ),
     media: {
       custom: ["/images/car_app.png"],
-      images: ["/images/car_app4.png", "/images/car_app2.png", "/images/car_app3.png"],
+      images: ["/images/car_app4.png", "/images/car_app2.png"],
     },
     image: "/images/car_app4.png",
     github: "https://github.com/SallaPR/rastitehtava.git",
-    skills: ["Qt", "MySQL", "Node.js", "C++"],
+    skills: ["Qt", "MySQL", "Node.js", "C++", "JavaScript"],
   },
   {
     id: 4,
@@ -158,7 +173,17 @@ const projects = [
       "A game we made as a group project, where the player has to press the button that lights up. ",
     longdescription: (
       <>
-        <p></p>
+        <p>
+          This is a group project I made with three other students. We created a speed
+          game, where the player has to press the button that lights up and the speed
+          increases after every press. We used Arduino for this project and programmed the
+          game logic in C++. We also 3D printed a case to house the Arduino and game
+          components.
+        </p>
+        <p>
+          In this game a random button lights up and the player needs to press the correct button to get points. Arduino manages the buttons, LED's and a display that shows the player's score. We also had an extra feature there, that made the game's speed increase more slowly, if the player presses the previous button with delay, when the next one lights up. I was responsible for developing the display component. 
+        </p>
+        <p>This was my first programming project and it was a good learning experience. Unlike my other projects that were purely software-based, this one included both hardware and software components.</p>
       </>
     ),
     media: {
