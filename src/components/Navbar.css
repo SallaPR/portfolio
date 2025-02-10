@@ -25,6 +25,7 @@ nav ul {
   font-size: 50px;
   color: var(--primary-color);
   text-decoration: none;
+  cursor: pointer;
 }
 
 nav li {
