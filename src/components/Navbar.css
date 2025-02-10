@@ -20,11 +20,11 @@ nav ul {
 }
 
 #title {
-    margin: auto 30px;
-    font-family: "Sacramento";
-    font-size: 50px;
-    color: var(--primary-color);
-    text-decoration: none;
+  margin: auto 30px;
+  font-family: "Sacramento";
+  font-size: 50px;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 nav li {
@@ -60,4 +60,31 @@ nav button::after {
 nav button:hover::after {
   opacity: 1; 
   transform: scaleX(1);
+}
+
+@media (max-width: 850px) {
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+    padding: 0px;
+  }
+
+  #title {
+    margin: 20px 0;
+    font-size: 45px;
+    padding-bottom: 10px;
+  }
+
+  nav ul {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
 }

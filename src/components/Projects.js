@@ -25,9 +25,11 @@ const Projects = () => {
                   ))}
               </div>
               <div className="project-links">
+                {project.longdescription && (
                 <Link to={`/project/${project.id}`} className="more-info-link">
                   More info
                 </Link>
+                )}
                 {project.link && (
                   <a
                     href={project.link}

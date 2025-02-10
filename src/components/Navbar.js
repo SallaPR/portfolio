@@ -5,10 +5,10 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleNavigation = (section) => {
-    navigate("/"); // Navigate to the home page first
+    navigate("/");
     setTimeout(() => {
       document.getElementById(section)?.scrollIntoView({ behavior: "smooth" });
-    }, 100); // Wait for navigation before scrolling
+    }, 100);
   };
 
   return (
@@ -18,9 +18,6 @@ const Navbar = () => {
           Salla Paaso-Rantala
         </a>
         <ul>
-          <li>
-            <button onClick={() => handleNavigation("about")}>About Me</button>
-          </li>
           <li>
             <button onClick={() => handleNavigation("projects")}>Projects</button>
           </li>

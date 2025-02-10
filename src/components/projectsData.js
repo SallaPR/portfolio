@@ -194,6 +194,18 @@ const projects = [
     image: "/images/spede.JPG",
     skills: ["Arduino", "C++"],
   },
+  {
+    id: 5,
+    title: "Portfolio",
+    description:
+      "This page. I made this website to show the projects I've made during the last two years.",
+    media: {
+      custom: ["/images/portfolio.png"],
+    },
+    image: "/images/portfolio.png",
+    github: "https://github.com/SallaPR/portfolio",
+    skills: ["JavaScript", "HTML", "CSS", "React"],
+  },
 ];
 
 export default projects;

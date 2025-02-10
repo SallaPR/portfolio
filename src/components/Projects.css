@@ -1,6 +1,6 @@
 /* Project Section Styling */
 .projects {
-  padding: 50px 20px;
+  margin-top: 100px;
   background-color: var(--background-color);
 }
 
@@ -8,13 +8,14 @@
 .projects-container {
   display: grid;
   justify-content: center;
+  max-width: 1000px;
 }
 
 /* Individual project card */
 .project-card {
-  /* text-align: center; */
-  width: 800px;
+  width: 85%;
   height: 340px;
+  margin: auto;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -62,7 +63,6 @@
 .project-card p {
   color: var(--text-color);
   margin-bottom: 20px;
-
 }
 
 /* Project skills */
@@ -105,4 +105,34 @@
 
 .project-card a:hover {
   background: var(--primary-hover);
+}
+
+@media (max-width: 1010px) {
+  .project-card img {
+    display: none;
+  }
+
+  .project-background {
+    background-image: none;
+  }
+
+  .project-content {
+    padding: 30px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .project-card {
+    width: 100%;
+    margin-bottom: 30px;
+    height: auto;
+  }
 }

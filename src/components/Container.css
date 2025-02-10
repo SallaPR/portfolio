@@ -2,7 +2,7 @@
 .container {
   max-width: 1000px; /* Set a max width for the container */
   margin: 0 auto; /* Centers the container horizontally */
-  padding: 1px 40px; /* Adds some padding to the sides */
+  padding: 1px 20px; /* Adds some padding to the sides */
   height: auto;
   background-color: var(--background-color);
   box-shadow: 0 0 30px 25px var(--background-color);
