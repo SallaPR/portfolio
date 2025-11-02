@@ -1,4 +1,3 @@
-import React from "react";
 import Projects from "../components/Projects"
 import "./Home.css";
 
@@ -7,7 +6,7 @@ const Home = () => {
     <>
       <section id="about">
         <p>
-          I'm a second-year ICT Engineering student in Oulu University of Applied
+          I'm a third-year ICT Engineering student in Oulu University of Applied
           Sciences. I enjoy working on both front-end and back-end technologies, trying
           out new frameworks, and learning how different technologies interact.
         </p>
@@ -23,10 +22,10 @@ const Home = () => {
             <b>Mobile Development:</b> React Native, Kotlin
           </li>
           <li>
-            <b>Databases:</b> PostgreSQL, MySQL
+            <b>Databases:</b> PostgreSQL, MySQL, Firebase
           </li>
           <li>
-            <b>Other Technologies:</b> Arduino, Qt
+            <b>Other Technologies:</b> Arduino, Qt, Visual Studio Code
           </li>
         </ul>
       </section>
