@@ -36,6 +36,7 @@
   left: 0;
   border-radius: 8px;
 }
+
 /* Project card background */
 .project-background {
   background-image: url("/public/images/project_image.png");
