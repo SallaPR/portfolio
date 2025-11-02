@@ -2,7 +2,96 @@
 
 const projects = [
   {
-    id: 1,
+    id: 6,
+    title: "Mobile app",
+    description:
+      "A map app where users follow routes, track checkpoints, and can add friends.",
+    longdescription: (
+      <>
+        <p>
+          This project was created a part of a group assignment where the goal was to
+          design and build a mobile application of our choice. Our group developed a
+          social map-based app that allows users to follow custom routes, track progress
+          and connect with friends.
+        </p>
+        <p>
+          Users sign up using Firebase Authentication and can then browse and select
+          routes to complete. Each route has checkpoints on a map, which turn from red to
+          green once reached. When a route is fully completed, the app displays a
+          notification and a confetti animation. Routes are created in a separate admin
+          tool and stored in Firebase Firestore, from where the main app retrieves them.
+        </p>
+        <p>
+          With the app users can also add friends, customize their profile and change
+          their profile picture, and view current weather conditions based on their
+          location on the app's front page.
+        </p>
+        <p>Tools and technologies:</p>
+        <ul>
+          <li>
+            <b>Version Control & Project Management:</b> Github and Scrum methology
+          </li>
+          <li>
+            <b>Backend/Auth:</b> Firebase (Firestore & Authentication)
+          </li>
+          <li>
+            <b>Development:</b> React Native, Expo
+          </li>
+          <li>
+            <b>Libraries:</b>
+          </li>
+          <ul>
+            <li>react-native-maps</li>
+            <li>expo-location</li>
+            <li>geolib</li>
+            <li>expo-camera</li>
+            <li>expo-file-system</li>
+          </ul>
+        </ul>
+        <p>My responsibilities</p>
+        <ul>
+          <li>
+            <b>Firebase Setup:</b> I configured and initialized Firebase for the app,
+            including Firestore and Authentication.
+          </li>
+          <li>
+            <b>User authentication:</b> Developed login and registration functionalities
+            using Firebase Authentication.
+          </li>
+          <li>
+            <b>Friend system & Settings:</b> Implemented the ability to add friends,
+            manage user settings and delete account.
+          </li>
+          <li>
+            <b>UI Design:</b> Designed the majority of the app's interface and user
+            experience in Figma.
+          </li>
+        </ul>
+      </>
+    ),
+    media: {
+      video: ["https://www.youtube.com/embed/B9Pj0qd7KdE?si=-XgYC-NRMPH-gEbU"],
+      images: [
+        `${process.env.PUBLIC_URL}/images/karttasovellus2.png`,
+        `${process.env.PUBLIC_URL}/images/karttasovellus3.png`,
+        `${process.env.PUBLIC_URL}/images/karttasovellus4.png`,
+        `${process.env.PUBLIC_URL}/images/karttasovellus5.png`,
+        `${process.env.PUBLIC_URL}/images/karttasovellus6.png`,
+        `${process.env.PUBLIC_URL}/images/karttasovellus7.png`,
+        `${process.env.PUBLIC_URL}/images/karttasovellus8.png`,
+        `${process.env.PUBLIC_URL}/images/karttasovellus9.png`,
+        `${process.env.PUBLIC_URL}/images/karttasovellus10.png`,
+        `${process.env.PUBLIC_URL}/images/karttasovellus11.png`,
+        `${process.env.PUBLIC_URL}/images/karttasovellus12.png`,
+        `${process.env.PUBLIC_URL}/images/karttasovellus13.png`,
+      ],
+    },
+    image: `${process.env.PUBLIC_URL}/images/karttasovellus.png`,
+    github: "https://github.com/Mobiilikehitysprojekti-Ryhma2/mobiilikehitysprojekti",
+    skills: ["JavaScript", "HTML", "CSS", "React Native", "Expo", "Firebase"],
+  },
+  {
+    id: 5,
     title: "Movie Website",
     description:
       "A group project, where the goal was to make a website for movie enthusiasts",
@@ -110,7 +199,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     title: "Website Project",
     description:
       "This is a final project for web application course. Website shows the skills I learned during the course about HTML, CSS and JavaScript. ",
@@ -146,7 +235,7 @@ const projects = [
       ],
     },
     image: `${process.env.PUBLIC_URL}/images/websivusto3.png`,
-    link: "https://sallapr.github.io/websivusto/stuff.html",
+    link: "https://sallapr.github.io/websivusto/index.html",
     github: "https://github.com/SallaPR/websivusto.git",
     skills: ["JavaScript", "HTML", "CSS"],
   },
@@ -184,7 +273,7 @@ const projects = [
     skills: ["Qt", "MySQL", "Node.js", "C++", "JavaScript"],
   },
   {
-    id: 4,
+    id: 2,
     title: "Speden Spelit - speedgame",
     description:
       "A game we made as a group project, where the player has to press the button that lights up. ",
@@ -214,17 +303,15 @@ const projects = [
     ),
     media: {
       custom: [`${process.env.PUBLIC_URL}/images/spede.JPG`],
-      images: [,],
       video: ["https://www.youtube.com/embed/rofxYfzP5AA"],
     },
     image: `${process.env.PUBLIC_URL}/images/spede.JPG`,
     skills: ["Arduino", "C++"],
   },
   {
-    id: 5,
+    id: 1,
     title: "Portfolio",
-    description:
-      "This page. I made this website to show the projects I've made during the last two years.",
+    description: "This page. I made this website to show the projects I've made before.",
     media: {
       custom: [`${process.env.PUBLIC_URL}/images/portfolio.png`],
     },
