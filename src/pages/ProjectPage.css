@@ -7,15 +7,8 @@
 
 /* Video */
 .video-container {
-  margin: 50px;
+  margin-bottom: 50px;
   text-align: center;
-}
-
-.custom-display {
-  padding: 20px;
-  background-color: #f4f4f4;
-  border-radius: 8px;
-  margin-top: 20px;
 }
 
 /* Photo */
@@ -64,6 +57,7 @@
 
 .modal-content {
   position: relative;
+  width: 60%;
   background: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 10px;
@@ -81,6 +75,7 @@
   font-size: 24px;
   cursor: pointer;
   color: var(--primary-color);
+  z-index: 20;
 }
 
 .modal-image-container {
@@ -136,8 +131,22 @@
   background: var(--primary-hover);
 }
 
+@media (max-width: 768px) {
+  .video-container iframe {
+    width: 80%;
+  }
+}
+
 @media (max-width: 425px) {
   .project-info {
+    width: 100%;
+  }
+
+  .custom-photo-container img {
+    width: 90%;
+  }
+
+  .video-container iframe {
     width: 100%;
   }
 }
