@@ -80,7 +80,6 @@ const projects = [
         `${process.env.PUBLIC_URL}/images/karttasovellus7.png`,
         `${process.env.PUBLIC_URL}/images/karttasovellus8.png`,
         `${process.env.PUBLIC_URL}/images/karttasovellus9.png`,
-        `${process.env.PUBLIC_URL}/images/karttasovellus10.png`,
         `${process.env.PUBLIC_URL}/images/karttasovellus11.png`,
         `${process.env.PUBLIC_URL}/images/karttasovellus12.png`,
         `${process.env.PUBLIC_URL}/images/karttasovellus13.png`,
