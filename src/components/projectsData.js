@@ -70,7 +70,7 @@ const projects = [
       </>
     ),
     media: {
-      video: ["https://www.youtube.com/embed/B9Pj0qd7KdE?si=-XgYC-NRMPH-gEbU"],
+      video: ["https://www.youtube.com/embed/qNA3knN9iSQ?si=g0-knHXzTlY_Ar3r"],
       images: [
         `${process.env.PUBLIC_URL}/images/karttasovellus2.png`,
         `${process.env.PUBLIC_URL}/images/karttasovellus3.png`,
