@@ -80,7 +80,7 @@
   margin-right: 10px;
   margin-bottom: 5px;
   font-size: 0.85em;
-  color: #525f7f;
+  color: var(--text-color);
 }
 
 /* Project links */
