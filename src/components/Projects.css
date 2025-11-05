@@ -108,7 +108,20 @@
   background: var(--primary-hover);
 }
 
-@media (max-width: 1010px) {
+@media (max-width: 930px) {
+  .project-card {
+    text-align: center;
+    height: auto;
+  }
+
+  .project-skills {
+    justify-content: center;
+  }
+
+  .project-links {
+    justify-content: center;
+  }
+
   .project-card img {
     display: none;
   }
@@ -127,13 +140,6 @@
   .project-card {
     width: 100%;
     margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 425px) {
-  .project-card {
-    width: 100%;
-    margin-bottom: 30px;
-    height: auto;
+    
   }
 }

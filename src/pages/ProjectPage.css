@@ -141,11 +141,19 @@
   .gallery-thumbnail:hover {
     transform: none;
   }
+
+  .arrow-button:hover {
+    transform: translateY(-50%);
+  }
 }
 
 @media (max-width: 768px) {
   .video-container iframe {
     width: 80%;
+  }
+
+  .modal-content {
+    width: 90%;
   }
 }
 
@@ -160,9 +168,5 @@
 
   .video-container iframe {
     width: 100%;
-  }
-
-  .modal-content {
-    width: 90%;
   }
 }
